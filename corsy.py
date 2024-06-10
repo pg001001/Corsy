@@ -103,3 +103,7 @@ if urls:
         print(' %s No misconfigurations found.' % bad)
 else:
     print(' %s No valid URLs to test.' % bad)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,3 +1,4 @@
+
 from setuptools import setup, find_packages
 
 # Read the contents of your README file
@@ -15,6 +16,7 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/s0md3v/Corsy',
     packages=find_packages(),
+    py_modules=['corsy'],  # This should match the name of your script
     install_requires=[
         'requests',
         'tldextract',
